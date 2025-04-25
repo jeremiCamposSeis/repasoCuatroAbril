@@ -24,3 +24,6 @@ $routes->get('mejoresProductosVendidos/(:num)', 'Usuario::mejoresProductosVendid
 $routes->get('menoresProductosVendidos/(:num)', 'Usuario::menoresProductosVendidos/$1');
 
 $routes->get('logout', 'Usuario::logout');
+
+
+$routes->get('Cliente', 'Cliente::index');
